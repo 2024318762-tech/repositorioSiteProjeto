@@ -102,18 +102,33 @@
     <section id="contato" class="section">
         <div class="container">
             <h2>Mais informações sobre o curso</h2>
-            <form class="contact=form" id="contatoFrom">
-                <div class="form-group">
+            <form class ="contact=form" id="contactForm">
+                <div class= "form-group">
                     <lebel for="name">Nome Completo</lebel>
-                    <input type="text" id="name" placeholder="Informe seu nome Completo">
-                
+                    <input type="text" id="name" placeholder="Informe seu nome completo">
                 </div>
-                <div> class="<form group=""></form></div>
-
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="seuemail@exemplo.com">
+                </div>
+                <div class = "form-group " >
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" rows="5" placeholder="Como podemos ajudar?"></textarea>
+                </div>
+            <button type="submit" class="btn-primary">Enviar mensagem</button>
             </form>
 
-        </div>
-
     </section>
+    <footer class="footer">
+        <div class="container grid-footer">
+            <div class="footer-col">
+                <h3>TMSI</h3>
+                <p>Curso Técnico em Manutenção e Suporte em Informática</p>
+            </div>
+        </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026. Todos os direitos reservados</p>
+            </div>
+    </footer>
 </body>
 </html>
